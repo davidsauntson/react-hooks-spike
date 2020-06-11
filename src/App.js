@@ -41,9 +41,11 @@ function App() {
           <div className="example">
             <p>
               Here, we have moved the conditional that depends on <code> number </code> outside of the click handler. It
-              is therefore not inside a closure. When the button clicks for the 3rd time, the condition is true so the
-              message is logged. However, the state of the component has changed and the condition is still true, so the
-              message is logged again.
+              is therefore not inside a closure. When the button clicks for the 3rd time, when the component re-renders
+              the condition is true so the message is logged.
+            </p>
+            <p>
+              Note that it is logged twice when <code> StrictMode </code> is on
             </p>
           </div>
           <div className="example">

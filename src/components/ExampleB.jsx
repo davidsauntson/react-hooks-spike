@@ -23,7 +23,7 @@ const ExampleB = (props) => {
       <section>
         <p>The number in my state is:</p>
         <h2>{number}</h2>
-        {number === 0 && <h4>The console logs when the number is zero twice</h4>}
+        {number === 0 && <h4>The console logs when the number is zero, hurrah!</h4>}
         {number !== 0 && <button onClick={handleButtonClick}>Decrease the number!</button>}
       </section>
     </div>

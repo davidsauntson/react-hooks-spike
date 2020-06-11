@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const ExampleC = (props) => {
+  console.info("Example C start");
   const [number, setNumber] = useState(3);
 
   const handleButtonClick = () => {
@@ -13,6 +14,7 @@ const ExampleC = (props) => {
     }
   });
 
+  console.info("Example C returning...");
   return (
     <div className="example">
       <h2>Hi I am the third example</h2>
