@@ -45,7 +45,9 @@ function App() {
               the condition is true so the message is logged.
             </p>
             <p>
-              Note that it is logged twice when <code> StrictMode </code> is on
+              Note that it is logged twice when <code> StrictMode </code> is on it will be logged twice. StrictMode does
+              this to help determine if you are doing a bad react. See more here:{" "}
+              <a href="https://reactjs.org/docs/strict-mode.html">React Strict Mode</a>
             </p>
           </div>
           <div className="example">
